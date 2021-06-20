@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import Offers from './Components/Offers';
+import Testimonials from './Components/Testimonials';
+import News from './Components/News';
+import Form from './Components/Form';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Offers
+        header="Our offer Data Science and Analytics Services"
+        description="lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero perspiciatis sequi delectus maxime"
+      />
+
+      <Testimonials
+        header="What say our clients about our awesome service"
+        description="lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero perspiciatis sequi delectus maxime"
+      />
+      <News
+        header="Latest data Science and our company news"
+        description="lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero perspiciatis sequi delectus maxime"
+      />
+      <Form
+        header="Get Readt to Started , it's free & very Easy"
+        description="lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero perspiciatis sequi delectus maxime"
+      />
+    </>
   );
 }
 

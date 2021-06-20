@@ -1,0 +1,50 @@
+.card {
+  width: 350px;
+  height: 40vh;
+  padding: 2rem 1.5rem;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 1px #00000049;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px 5px #00000060;
+}
+
+.profile {
+  width: auto;
+  margin: auto;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.header {
+  font-size: 0.8rem;
+  color: gray;
+  text-align: center;
+}
+
+.description {
+  font-size: 0.8rem;
+  text-align: center;
+}

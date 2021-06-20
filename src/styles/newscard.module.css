@@ -1,0 +1,46 @@
+.card {
+  width: 250px;
+  height: 300px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px #00000052;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 2px 5px 10px #00000077;
+  /* transform: translateZ(10px) scale(1.1); */
+  cursor: pointer;
+}
+
+.media {
+  width: 250px;
+  height: 200px;
+}
+
+.details {
+  height: 100px;
+  flex: 1;
+  padding: 0.6rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.header {
+  font-size: 0.7rem;
+  color: tomato;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.time,
+.comments {
+  font-size: 0.7rem;
+  color: gray;
+}
