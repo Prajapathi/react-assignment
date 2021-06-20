@@ -1,0 +1,41 @@
+.card {
+  width: 300px;
+  height: 100%;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.label {
+  color: gray;
+  font-size: 0.7rem;
+}
+
+.inputfield {
+  height: 40px;
+  border: 1px solid black;
+}
+
+.quote {
+  width: 100%;
+  padding: 1rem auto;
+  font-size: 1rem;
+  background: blue;
+}
+
+div a {
+  color: tomato;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 0.8rem;
+}
